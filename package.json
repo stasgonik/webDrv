@@ -1,0 +1,32 @@
+{
+  "name": "webdrv",
+  "version": "1.0.0",
+  "description": "WebdriverAuto",
+  "main": "OLDwdio.conf.js",
+  "scripts": {
+    "selenium-server": "./node_modules/.bin/selenium-standalone start",
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "keywords": [
+    "WDIO"
+  ],
+  "author": "GSI",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "@wdio/cli": "^6.9.1",
+    "@wdio/local-runner": "^6.9.1",
+    "@wdio/mocha-framework": "^6.8.0",
+    "@wdio/selenium-standalone-service": "^6.9.0",
+    "@wdio/spec-reporter": "^6.8.1",
+    "@wdio/sync": "^6.9.1",
+    "chromedriver": "^87.0.0",
+    "mocha": "^8.2.1",
+    "selenium-standalone": "^6.20.1",
+    "wdio-chromedriver-service": "^6.0.4",
+    "webdriverio": "^6.9.1"
+  }
+}
